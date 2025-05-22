@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+
+body, .faq-title {
+  background-color: #fff7ed !important;
+  font-family: "Quicksand", sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, .contact-title{
+  font-family: 'Merienda', serif !important;
+} 
+
+.navbar {
+  background: #fff7ed !important;
+  border-bottom: 1px solid #ebebebb1;
+  /* background: linear-gradient(to right, #ffc107, #fff) !important; */
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 18px !important;
+  font-family: 'Merienda', serif !important;
+}
+
+.navbar-nav > .nav-link {
+  font-weight: 600;
+  border-radius: 4px;
+  transition: all .6s ease-in-out;
+}
+
+.navbar-nav > .nav-link:hover,
+.navbar-nav > .active {
+  background-color: #fff7ed !important;
+  color: #000 !important;
+  box-shadow: inset 0px 0px 6px 0px #a3a3a3;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+input, textarea{
+  background-color: #fff7ed !important;
+}
+
+input:focus, textarea:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #fff !important;
+}
+
+.main-contents {
+  margin-top: 6.5rem;
+  margin-bottom: 5.5rem;
+}
+
+.recipe-card{
+  border: 0 !important;
+  background-color: #fff7ed !important;
+  box-shadow: 0 0 6px #e5e5e5 !important;
+}
+
+.recipe-card:hover{
+  box-shadow: 0 0 6px #bfbfbf !important;
+}
+
+.accordion-button,
+.accordion-item{
+  background-color: #fff7ed !important;
+}
+
+.accordion-button:focus{
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed){
+  background-color: #fff7ed !important;
+}
+
+.taglist > li{
+  background-color: #fff7ed !important;
+  border: 0 !important;
+}
+
+.list-group-flush > li > a{
+  color: #000;
+}
